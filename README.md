@@ -54,7 +54,7 @@ plt.show()
 
 #Graph plot for test data
 plt.scatter(x_test ,y_test,color='black')
-plt.plot(x_train,regressor.predict(x_train),color='Red')
+plt.plot(x_test,regressor.predict(x_test),color='Red')
 plt.title("Hours vs Scores(Testing set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
